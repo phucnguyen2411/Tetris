@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D4685D7E1C206DD10016C7B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685D7D1C206DD10016C7B3 /* AppDelegate.swift */; };
-		D4685D801C206DD10016C7B3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D4685D7F1C206DD10016C7B3 /* GameScene.sks */; };
 		D4685D821C206DD10016C7B3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685D811C206DD10016C7B3 /* GameScene.swift */; };
 		D4685D841C206DD10016C7B3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685D831C206DD10016C7B3 /* GameViewController.swift */; };
 		D4685D871C206DD10016C7B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4685D851C206DD10016C7B3 /* Main.storyboard */; };
@@ -16,6 +15,24 @@
 		D4685D8C1C206DD10016C7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4685D8A1C206DD10016C7B3 /* LaunchScreen.storyboard */; };
 		D4685D971C206DD10016C7B3 /* TetrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685D961C206DD10016C7B3 /* TetrisTests.swift */; };
 		D4685DA21C206DD20016C7B3 /* TetrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685DA11C206DD20016C7B3 /* TetrisUITests.swift */; };
+		D4685DB11C206F900016C7B3 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = D4685DB01C206F900016C7B3 /* Sounds */; };
+		D4685DB31C206FC60016C7B3 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = D4685DB21C206FC60016C7B3 /* Images */; };
+		D4685DB51C206FD10016C7B3 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D4685DB41C206FD10016C7B3 /* Sprites.atlas */; };
+		D4685DB71C2073370016C7B3 /* KhungGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685DB61C2073370016C7B3 /* KhungGame.swift */; };
+		D4685DB91C2074CA0016C7B3 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685DB81C2074CA0016C7B3 /* Block.swift */; };
+		D4685DBB1C20760F0016C7B3 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685DBA1C20760F0016C7B3 /* Shape.swift */; };
+		D4685DBD1C2077E10016C7B3 /* KhoiVuong.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685DBC1C2077E10016C7B3 /* KhoiVuong.swift */; };
+		D4685DBF1C207A330016C7B3 /* KhoiT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685DBE1C207A330016C7B3 /* KhoiT.swift */; };
+		D4685DC11C207B490016C7B3 /* KhoiI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685DC01C207B490016C7B3 /* KhoiI.swift */; };
+		D4685DC31C207D330016C7B3 /* KhoiL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685DC21C207D330016C7B3 /* KhoiL.swift */; };
+		D4685DC51C207D590016C7B3 /* KhoiLNguoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685DC41C207D590016C7B3 /* KhoiLNguoc.swift */; };
+		D4685DC71C207D760016C7B3 /* KhoiZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685DC61C207D760016C7B3 /* KhoiZ.swift */; };
+		D4685DC91C207D8F0016C7B3 /* KhoiZNguoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685DC81C207D8F0016C7B3 /* KhoiZNguoc.swift */; };
+		D4685DCB1C207ED90016C7B3 /* DieuKhien.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4685DCA1C207ED90016C7B3 /* DieuKhien.swift */; };
+		D4685DD21C20886A0016C7B3 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D4685DCC1C20886A0016C7B3 /* background.png */; };
+		D4685DD31C20886A0016C7B3 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4685DCD1C20886A0016C7B3 /* background@2x.png */; };
+		D4685DD41C20886A0016C7B3 /* gameboard.png in Resources */ = {isa = PBXBuildFile; fileRef = D4685DCE1C20886A0016C7B3 /* gameboard.png */; };
+		D4685DD51C20886A0016C7B3 /* gameboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4685DCF1C20886A0016C7B3 /* gameboard@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +55,6 @@
 /* Begin PBXFileReference section */
 		D4685D7A1C206DD10016C7B3 /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4685D7D1C206DD10016C7B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4685D7F1C206DD10016C7B3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		D4685D811C206DD10016C7B3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D4685D831C206DD10016C7B3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D4685D861C206DD10016C7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,24 @@
 		D4685D9D1C206DD20016C7B3 /* TetrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4685DA11C206DD20016C7B3 /* TetrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisUITests.swift; sourceTree = "<group>"; };
 		D4685DA31C206DD20016C7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4685DB01C206F900016C7B3 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		D4685DB21C206FC60016C7B3 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		D4685DB41C206FD10016C7B3 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		D4685DB61C2073370016C7B3 /* KhungGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KhungGame.swift; sourceTree = "<group>"; };
+		D4685DB81C2074CA0016C7B3 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		D4685DBA1C20760F0016C7B3 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		D4685DBC1C2077E10016C7B3 /* KhoiVuong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KhoiVuong.swift; sourceTree = "<group>"; };
+		D4685DBE1C207A330016C7B3 /* KhoiT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KhoiT.swift; sourceTree = "<group>"; };
+		D4685DC01C207B490016C7B3 /* KhoiI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KhoiI.swift; sourceTree = "<group>"; };
+		D4685DC21C207D330016C7B3 /* KhoiL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KhoiL.swift; sourceTree = "<group>"; };
+		D4685DC41C207D590016C7B3 /* KhoiLNguoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KhoiLNguoc.swift; sourceTree = "<group>"; };
+		D4685DC61C207D760016C7B3 /* KhoiZ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KhoiZ.swift; sourceTree = "<group>"; };
+		D4685DC81C207D8F0016C7B3 /* KhoiZNguoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KhoiZNguoc.swift; sourceTree = "<group>"; };
+		D4685DCA1C207ED90016C7B3 /* DieuKhien.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DieuKhien.swift; sourceTree = "<group>"; };
+		D4685DCC1C20886A0016C7B3 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Images/background.png; sourceTree = "<group>"; };
+		D4685DCD1C20886A0016C7B3 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "Images/background@2x.png"; sourceTree = "<group>"; };
+		D4685DCE1C20886A0016C7B3 /* gameboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gameboard.png; path = Images/gameboard.png; sourceTree = "<group>"; };
+		D4685DCF1C20886A0016C7B3 /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gameboard@2x.png"; path = "Images/gameboard@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +115,7 @@
 		D4685D711C206DD10016C7B3 = {
 			isa = PBXGroup;
 			children = (
+				D4685DAF1C206F830016C7B3 /* Supporting Files */,
 				D4685D7C1C206DD10016C7B3 /* Tetris */,
 				D4685D951C206DD10016C7B3 /* TetrisTests */,
 				D4685DA01C206DD20016C7B3 /* TetrisUITests */,
@@ -102,13 +137,23 @@
 			isa = PBXGroup;
 			children = (
 				D4685D7D1C206DD10016C7B3 /* AppDelegate.swift */,
-				D4685D7F1C206DD10016C7B3 /* GameScene.sks */,
 				D4685D811C206DD10016C7B3 /* GameScene.swift */,
 				D4685D831C206DD10016C7B3 /* GameViewController.swift */,
 				D4685D851C206DD10016C7B3 /* Main.storyboard */,
 				D4685D881C206DD10016C7B3 /* Assets.xcassets */,
 				D4685D8A1C206DD10016C7B3 /* LaunchScreen.storyboard */,
 				D4685D8D1C206DD10016C7B3 /* Info.plist */,
+				D4685DB61C2073370016C7B3 /* KhungGame.swift */,
+				D4685DB81C2074CA0016C7B3 /* Block.swift */,
+				D4685DBA1C20760F0016C7B3 /* Shape.swift */,
+				D4685DBC1C2077E10016C7B3 /* KhoiVuong.swift */,
+				D4685DBE1C207A330016C7B3 /* KhoiT.swift */,
+				D4685DC01C207B490016C7B3 /* KhoiI.swift */,
+				D4685DC21C207D330016C7B3 /* KhoiL.swift */,
+				D4685DC41C207D590016C7B3 /* KhoiLNguoc.swift */,
+				D4685DC61C207D760016C7B3 /* KhoiZ.swift */,
+				D4685DC81C207D8F0016C7B3 /* KhoiZNguoc.swift */,
+				D4685DCA1C207ED90016C7B3 /* DieuKhien.swift */,
 			);
 			path = Tetris;
 			sourceTree = "<group>";
@@ -129,6 +174,20 @@
 				D4685DA31C206DD20016C7B3 /* Info.plist */,
 			);
 			path = TetrisUITests;
+			sourceTree = "<group>";
+		};
+		D4685DAF1C206F830016C7B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4685DCC1C20886A0016C7B3 /* background.png */,
+				D4685DCD1C20886A0016C7B3 /* background@2x.png */,
+				D4685DCE1C20886A0016C7B3 /* gameboard.png */,
+				D4685DCF1C20886A0016C7B3 /* gameboard@2x.png */,
+				D4685DB41C206FD10016C7B3 /* Sprites.atlas */,
+				D4685DB21C206FC60016C7B3 /* Images */,
+				D4685DB01C206F900016C7B3 /* Sounds */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +294,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4685D801C206DD10016C7B3 /* GameScene.sks in Resources */,
+				D4685DB51C206FD10016C7B3 /* Sprites.atlas in Resources */,
+				D4685DB31C206FC60016C7B3 /* Images in Resources */,
+				D4685DD41C20886A0016C7B3 /* gameboard.png in Resources */,
+				D4685DD51C20886A0016C7B3 /* gameboard@2x.png in Resources */,
+				D4685DD21C20886A0016C7B3 /* background.png in Resources */,
 				D4685D8C1C206DD10016C7B3 /* LaunchScreen.storyboard in Resources */,
 				D4685D891C206DD10016C7B3 /* Assets.xcassets in Resources */,
+				D4685DB11C206F900016C7B3 /* Sounds in Resources */,
+				D4685DD31C20886A0016C7B3 /* background@2x.png in Resources */,
 				D4685D871C206DD10016C7B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,9 +328,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4685DBD1C2077E10016C7B3 /* KhoiVuong.swift in Sources */,
 				D4685D821C206DD10016C7B3 /* GameScene.swift in Sources */,
+				D4685DC91C207D8F0016C7B3 /* KhoiZNguoc.swift in Sources */,
+				D4685DBB1C20760F0016C7B3 /* Shape.swift in Sources */,
+				D4685DC71C207D760016C7B3 /* KhoiZ.swift in Sources */,
+				D4685DB71C2073370016C7B3 /* KhungGame.swift in Sources */,
+				D4685DB91C2074CA0016C7B3 /* Block.swift in Sources */,
+				D4685DBF1C207A330016C7B3 /* KhoiT.swift in Sources */,
+				D4685DC51C207D590016C7B3 /* KhoiLNguoc.swift in Sources */,
+				D4685DC11C207B490016C7B3 /* KhoiI.swift in Sources */,
 				D4685D841C206DD10016C7B3 /* GameViewController.swift in Sources */,
 				D4685D7E1C206DD10016C7B3 /* AppDelegate.swift in Sources */,
+				D4685DCB1C207ED90016C7B3 /* DieuKhien.swift in Sources */,
+				D4685DC31C207D330016C7B3 /* KhoiL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +568,7 @@
 				D4685DA81C206DD20016C7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4685DA91C206DD20016C7B3 /* Build configuration list for PBXNativeTarget "TetrisTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +577,7 @@
 				D4685DAB1C206DD20016C7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4685DAC1C206DD20016C7B3 /* Build configuration list for PBXNativeTarget "TetrisUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +586,7 @@
 				D4685DAE1C206DD20016C7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
